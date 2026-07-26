@@ -14,5 +14,3 @@ s_info['age'] = int(input("Enter student age : "))
 s_info['height'] = float(input("Enter student's height : "))
 s_info['status'] = bool(input("Enter student status(1 for true/ 0 for false) : "))
 print(s_info)
-
-
