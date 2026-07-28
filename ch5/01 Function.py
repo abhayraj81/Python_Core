@@ -27,8 +27,34 @@ add3nums(a=9,b=33,c=2)
 add3nums(b=23,a=1,c=90)
 
 
-# 2. Return Statement
+# 2. Function with Return Statement
+
 def add(a,b):
-    return(a+b)
+    return(a+b) # this line sends back sum of a add
+    return(a-b) # after first return statement function ends.
 result = add(56,4)
 print(result)
+
+# function to convert celcius to fahrenheit
+def celsius_to_fahrenheit(celsius):
+    fahrenheit = (celsius * 9/5) +32
+    return fahrenheit
+# call a function
+temp_f1 = celsius_to_fahrenheit(25)
+print(temp_f1)
+print("With return statement : ", type(temp_f1))
+
+# function without return statement
+def celsius_to_fahrenheit(celsius):
+    fahrenheit = (celsius * 9/5) +32
+    print(fahrenheit)
+# call a function
+temp_f2 = celsius_to_fahrenheit(50)
+print(temp_f2)
+print("Without return statement : " , type(temp_f2))
+
+# 3. Pass Statement
+def anything():
+    pass # code to be updated Later
+print(" Yep ! Gotcha")
+
