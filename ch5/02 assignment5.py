@@ -1,1 +1,0 @@
-# WAP to make calculator using function performs atleast 5 operations
