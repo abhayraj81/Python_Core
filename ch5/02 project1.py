@@ -18,13 +18,13 @@ def avg(a,b):
 
 # statement to choose operation
 print("Please Select Operation : \n "\
-      "1. 'add' for Addition"\
-      "2. 'sub' for Substraction"\
-      "3. 'mul' for Multiplication"\
-      "4. 'div' for Division"\
+      "1. 'add' for Addition \n"\
+      "2. 'sub' for Substraction \n"\
+      "3. 'mul' for Multiplication\n"\
+      "4. 'div' for Division\n"\
       "5. 'av' for Average")
 # taking input for from user
-select = int((input("select a operation from 1 to 5 :")))
+select = int((input("select a operation from 1 to 5 : ")))
 a = int(input("Enter First Number : "))
 b = int(input("Enter Second Number : "))
 # conditions for user selection~
@@ -37,7 +37,7 @@ elif select == 3:
 elif select == 4:
     print(a," / ",b," = ",div(a,b))
 elif select == 5:
-    print("(",a," + ",b,")"," = ",avg(a,b))
+    print("(",a," + ",b,")","/2"," = ",avg(a,b))
 else:
     ("Invalid Input")
 
