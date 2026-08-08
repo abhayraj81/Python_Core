@@ -10,3 +10,4 @@ greet = "Hello! World"
 print(greet[-4])    # last fourth character
 print(greet[6])     # blank space is also a chr
 print(greet[-7])    # ! the 7th character from last
+
