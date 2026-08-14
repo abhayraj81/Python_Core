@@ -12,7 +12,7 @@ print(list3)
 
 # using append method
 for x in list2:
-    list1.append(x)     # apending all elemrnt of list2 in list1
+    list1.append(x)     # apending all element of list2 in list1
 print(list1)
 
 # using extend method
