@@ -127,5 +127,23 @@ data = {'a':5,'b':9,'c':2,'d':7}
 
 print(sorted_by_values(data))
 
-
 # 10. Access values from a nested dictionary.
+
+data = {
+    "level1":{
+        "level2":{
+            "level3":{
+                "value1":10,
+                "value2":[1,2,{"deep_key":42}],
+                "value3":{"inner_key":"target}"
+                },
+                "other_key":99
+            },
+            "list_key":[
+                {"inner_key1":88},
+                {"inner_key2":{"deep_list_key":77}}
+            ]
+        }
+    }
+}
+
