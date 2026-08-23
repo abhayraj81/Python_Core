@@ -14,7 +14,7 @@ print(f' {student_2[0]} in class {student_1[1]} ')
 
 # class - blueprint or template 
 class Student:
-    def __init__(self, full_name, class_grade):
+    def __init__(self, full_name, class_grade):        #self : helps to build relation between class and object
         self.name = full_name
         self.grade = class_grade
 
