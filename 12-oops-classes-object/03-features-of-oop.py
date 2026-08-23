@@ -95,4 +95,35 @@ Grad_Student2.student_details()
 
 print("\n : Ploymorphism : \n")
 
-# 4.Polymorphism : 
+# 4.Polymorphism : Allow method in different classes to have same name but different behaviour depending on objects. 
+
+class Student:
+    def __init__(self, full_name, class_grade, percentage):   # Method-1  
+        self.name = full_name           # attribute-1
+        self.grade = class_grade        # attribute-2
+        self.percentage = percentage    # attribute-3
+
+    def student_details(self):  #Method-2
+        print(f"{self.name} is in class {self.grade} with {self.percentage}%")
+
+# object - instance of class
+student2 = Student("Raja Sharma",10, 89)
+
+# child class
+class GraduateStudent(Student):                           
+    def __init__(self, name, grade, percentage, stream):  
+        super().__init__(name, grade, percentage)         
+        self.stream = stream                              
+
+    def student_details(self):  
+        print("same method with different o/p")
+        print(f'{self.name} is in class {self.grade}, with {self.percentage}% and from stream {self.stream}')
+
+# Object - Student class
+student1 = Student("Abhay Raj",12, 98)
+
+# Object - GraduateStudent class
+Grad_Student1 =  GraduateStudent("Anshika", 12, 92, 'PCM')
+
+student1.student_details()             # accessing method from parent class Student
+Grad_Student1.student_details()        # accessing method from child class GraduateStudent
