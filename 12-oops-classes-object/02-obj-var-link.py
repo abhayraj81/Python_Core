@@ -7,7 +7,7 @@ class Student:
         self.percentage = percentage    # attribute-3
         self.team = team   # attribute-3
 
-    def student_details(self):  #Metho-2
+    def student_details(self):  #Method-2
         print(f"{self.name} is in class {self.grade} with {self.percentage}% is in team {self.team}")
 
 
