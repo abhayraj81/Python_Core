@@ -22,7 +22,7 @@ class Student:
         self.grade = class_grade        # attribute-2
         self.percentage = percentage    # attribute-3
 
-    def student_details(self):  #Metho-2
+    def student_details(self):  #Method-2
         print(f"{self.name} is in class {self.grade} with {self.percentage}%")
 
 # object - instance of class
