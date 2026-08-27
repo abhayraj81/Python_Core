@@ -10,3 +10,8 @@ myModule.say_bye("Raj")
 # import/use specific part of the code
 from myModule import person1
 print(person1['age'])
+
+
+# package : collection of module/py files + __init__.py
+
+# library : collection of module and packages
